@@ -1,0 +1,154 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Using Variables</h1>
+    <p id="outputgreeting"></p>
+    <script>
+        var greeting = "Welcome to JavaScript!";
+        console.log(greeting);
+        let name = "Alice";
+        console.log("Hello, " + name + "!");
+        document.getElementById("outputgreeting").innerHTML = greeting + " " + name;
+        var company="Capgemini";
+        let clocation="Bangalore";
+        const year=2024;
+        console.log("Welcome to " + company + " located in " + clocation + " in the year " + year);
+        document.getElementById("outputgreeting").innerHTML += "<br>Welcome to " + company + " located in " + clocation + " in the year " + year;
+        console.log("\n====== Function scope =======");
+        function testvar(){
+            var name="charlie";
+            console.log(name);
+        }
+        testvar();
+        console.log(name); // This will still print "Alice" because 'name' declared with 'let' is block-scoped, not function-scoped.
+        console.log("\n====== Primitive data types =======");
+        let name2 = "David";
+        let age =30;
+        let isStudent = false;
+        let salary;
+        let bonus=null;
+        let bigNumber = 9007199254740991n; // BigInt
+        console.log(typeof name2); // string
+        console.log(typeof age); // number
+        console.log(typeof isStudent); // boolean
+        console.log(typeof salary); // undefined
+        console.log(typeof bonus); // object (null is considered an object in JavaScript)
+        console.log(typeof bigNumber); // bigint
+        console.log("\n====== Non-primitive data types =======");
+        let person = { name: "Eve", age: 25 };
+        let numbers = [1, 2, 3, 4, 5];
+        let today = new Date();
+        function greet() {
+            console.log("Hello!");
+        }
+        console.log(typeof greet); // function
+        console.log(typeof person); // object
+        console.log(typeof numbers); // object (arrays are a type of object in JavaScript)
+        console.log(typeof today); // object
+    </script>    
+</body>
+</html>  -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Console Program</title>
+</head>
+
+<body>
+
+<script>
+    const companyName = "TechStore";
+    let warehouseLocation = "Delhi";
+    var totalProducts = 3;
+
+    const products = [
+        { id: 1, name: "Laptop", price: 50000, quantity: 2 },
+        { id: 2, name: "Mouse", price: 500, quantity: 10 },
+        { id: 3, name: "Keyboard", price: 1500, quantity: 5 }
+    ];
+
+    function displayProducts() {
+        for (let i = 0; i < products.length; i++) {
+            const p = products[i];
+            console.log(
+                "ID:", p.id,
+                "| Name:", p.name,
+                "| Price:", p.price,
+                "| Quantity:", p.quantity
+            );
+        }
+    }
+
+    function calculateInventoryValue() {
+        let total = 0;
+
+        for (let i = 0; i < products.length; i++) {
+            total += products[i].price * products[i].quantity;
+        }
+
+        return total;
+    }
+
+    function applyDiscount(discountPercent = 10) {
+        for (let i = 0; i < products.length; i++) {
+            products[i].price =
+                products[i].price -
+                (products[i].price * discountPercent) / 100;
+        }
+    }
+
+    console.log("===== GLOBAL VALUES =====");
+    console.log("Company Name:", companyName);
+    console.log("Warehouse Location:", warehouseLocation);
+    console.log("Total Products:", totalProducts);
+
+    console.log("\n===== PRODUCT LIST =====");
+    displayProducts();
+
+    console.log(
+        "\n===== INVENTORY VALUE ====="
+    );
+    console.log(
+        "Total Inventory Value:",
+        calculateInventoryValue()
+    );
+
+    console.log(
+        "\n===== APPLY DISCOUNT (Default 10%) ====="
+    );
+    applyDiscount();
+    displayProducts();
+
+    console.log(
+        "\n===== BLOCK SCOPE DEMONSTRATION ====="
+    );
+
+    console.log("Before Block");
+    console.log("Warehouse Location:", warehouseLocation);
+    console.log("Total Products:", totalProducts);
+
+    {
+        let warehouseLocation = "Mumbai";
+        var totalProducts = 5;
+
+        console.log("\nInside Block");
+        console.log("Warehouse Location:", warehouseLocation);
+        console.log("Total Products:", totalProducts);
+    }
+
+    console.log("\nAfter Block");
+    console.log("Warehouse Location:", warehouseLocation);
+    console.log("Total Products:", totalProducts);
+</script>
+
+</body>
+</html> -->

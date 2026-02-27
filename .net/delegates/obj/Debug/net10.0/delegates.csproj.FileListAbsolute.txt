@@ -1,0 +1,14 @@
+C:\Users\Anurag Bhardwaj\.net\delegates\bin\Debug\net10.0\delegates.exe
+C:\Users\Anurag Bhardwaj\.net\delegates\bin\Debug\net10.0\delegates.deps.json
+C:\Users\Anurag Bhardwaj\.net\delegates\bin\Debug\net10.0\delegates.runtimeconfig.json
+C:\Users\Anurag Bhardwaj\.net\delegates\bin\Debug\net10.0\delegates.dll
+C:\Users\Anurag Bhardwaj\.net\delegates\bin\Debug\net10.0\delegates.pdb
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.AssemblyInfoInputs.cache
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.AssemblyInfo.cs
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.csproj.CoreCompileInputs.cache
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.dll
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\refint\delegates.dll
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.pdb
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\delegates.genruntimeconfig.cache
+C:\Users\Anurag Bhardwaj\.net\delegates\obj\Debug\net10.0\ref\delegates.dll

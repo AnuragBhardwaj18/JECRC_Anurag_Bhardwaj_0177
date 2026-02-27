@@ -1,0 +1,14 @@
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\bin\Debug\net10.0\OOPsCoding.exe
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\bin\Debug\net10.0\OOPsCoding.deps.json
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\bin\Debug\net10.0\OOPsCoding.runtimeconfig.json
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\bin\Debug\net10.0\OOPsCoding.dll
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\bin\Debug\net10.0\OOPsCoding.pdb
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.AssemblyInfoInputs.cache
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.AssemblyInfo.cs
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.csproj.CoreCompileInputs.cache
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.dll
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\refint\OOPsCoding.dll
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.pdb
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\OOPsCoding.genruntimeconfig.cache
+C:\Users\Anurag Bhardwaj\.net\OOPsCoding\obj\Debug\net10.0\ref\OOPsCoding.dll

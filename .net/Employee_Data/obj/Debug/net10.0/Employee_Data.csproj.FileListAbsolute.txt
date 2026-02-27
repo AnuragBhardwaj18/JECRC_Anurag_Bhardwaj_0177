@@ -1,0 +1,14 @@
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.AssemblyInfoInputs.cache
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.AssemblyInfo.cs
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.csproj.CoreCompileInputs.cache
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\bin\Debug\net10.0\Employee_Data.exe
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\bin\Debug\net10.0\Employee_Data.deps.json
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\bin\Debug\net10.0\Employee_Data.runtimeconfig.json
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\bin\Debug\net10.0\Employee_Data.dll
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\bin\Debug\net10.0\Employee_Data.pdb
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.dll
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\refint\Employee_Data.dll
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.pdb
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\Employee_Data.genruntimeconfig.cache
+C:\Users\Anurag Bhardwaj\.net\Employee_Data\obj\Debug\net10.0\ref\Employee_Data.dll

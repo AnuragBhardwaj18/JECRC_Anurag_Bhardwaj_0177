@@ -1,0 +1,14 @@
+C:\Users\Anurag Bhardwaj\.net\null_type\bin\Debug\net10.0\null_type.exe
+C:\Users\Anurag Bhardwaj\.net\null_type\bin\Debug\net10.0\null_type.deps.json
+C:\Users\Anurag Bhardwaj\.net\null_type\bin\Debug\net10.0\null_type.runtimeconfig.json
+C:\Users\Anurag Bhardwaj\.net\null_type\bin\Debug\net10.0\null_type.dll
+C:\Users\Anurag Bhardwaj\.net\null_type\bin\Debug\net10.0\null_type.pdb
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.AssemblyInfoInputs.cache
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.AssemblyInfo.cs
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.csproj.CoreCompileInputs.cache
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.dll
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\refint\null_type.dll
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.pdb
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\null_type.genruntimeconfig.cache
+C:\Users\Anurag Bhardwaj\.net\null_type\obj\Debug\net10.0\ref\null_type.dll
