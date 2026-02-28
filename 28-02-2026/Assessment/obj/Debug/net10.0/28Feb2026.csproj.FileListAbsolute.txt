@@ -1,0 +1,15 @@
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\bin\Debug\net10.0\28Feb2026.exe
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\bin\Debug\net10.0\28Feb2026.deps.json
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\bin\Debug\net10.0\28Feb2026.runtimeconfig.json
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\bin\Debug\net10.0\28Feb2026.dll
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\bin\Debug\net10.0\28Feb2026.pdb
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.AssemblyInfoInputs.cache
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.AssemblyInfo.cs
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.csproj.CoreCompileInputs.cache
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.sourcelink.json
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.dll
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\refint\28Feb2026.dll
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.pdb
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\28Feb2026.genruntimeconfig.cache
+C:\Users\Anurag Bhardwaj\Desktop\Cap\Assessment\28Feb2026\obj\Debug\net10.0\ref\28Feb2026.dll
