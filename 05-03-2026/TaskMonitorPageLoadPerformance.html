@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Monitor Page Load Performance</title>
+
+</head>
+
+<body>
+
+<div class="container">
+<h2>Page Load Performance Monitor</h2>
+<p id="result">Measuring page load time...</p>
+</div>
+
+<script>
+
+const logger = {
+    log:function(level,message,data){
+
+        const logData = {
+            level: level,
+            message: message,
+            data: data,
+            time: new Date().toISOString()
+        };
+
+        console.log("Performance Log:", logData);
+
+        // Send data to remote server
+        fetch("https://example.com/performance",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(logData)
+        })
+        .then(res => console.log("Performance data sent"))
+        .catch(err => console.error("Logging failed",err));
+    }
+};
+
+const start = performance.now();
+
+window.onload = function(){
+
+const end = performance.now();
+
+const loadTime = end - start;
+
+logger.log("INFO","Page Load Time:", loadTime + " ms");
+
+document.getElementById("result").innerText =
+"Page loaded in " + loadTime.toFixed(2) + " ms";
+
+};
+
+</script>
+
+</body>
+</html>

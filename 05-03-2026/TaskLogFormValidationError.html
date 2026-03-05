@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Log Form Validation Errors</title>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Email Validation Form</h2>
+
+<input id="email" placeholder="Enter Email">
+<button onclick="validateForm()">Submit</button>
+
+<p id="status"></p>
+
+</div>
+
+<script>
+
+const logger = {
+    log:function(level,message,data){
+
+        const logData = {
+            level: level,
+            message: message,
+            data: data,
+            time: new Date().toISOString()
+        };
+
+        console.log("Log:", logData);
+
+        // Send log to server
+        fetch("https://example.com/log",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(logData)
+        })
+        .then(res => console.log("Log stored on server"))
+        .catch(err => console.error("Log failed",err));
+
+    }
+};
+
+function validateForm(){
+
+const email = document.getElementById("email").value;
+
+if(!email.includes("@")){
+
+logger.log("WARN","Invalid Email Entered",email);
+
+alert("Invalid email");
+
+document.getElementById("status").innerText = "Invalid email logged.";
+
+}
+else{
+
+document.getElementById("status").innerText = "Email submitted successfully.";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
