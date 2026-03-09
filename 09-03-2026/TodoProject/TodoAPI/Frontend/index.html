@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Todo List</h1>
+
+<div class="inputBox">
+
+<input id="taskInput" placeholder="Enter task">
+
+<select id="priority">
+<option value="Low">Low</option>
+<option value="Normal" selected>Normal</option>
+<option value="High">High</option>
+</select>
+
+<button onclick="addTask()">Add</button>
+
+</div>
+
+<div class="controls">
+
+<button onclick="filterTasks('all')">All</button>
+<button onclick="filterTasks('active')">Active</button>
+<button onclick="filterTasks('completed')">Completed</button>
+
+<input id="searchBox" placeholder="Search task" onkeyup="searchTasks()">
+
+<button onclick="toggleDarkMode()">Dark Mode</button>
+
+</div>
+
+<ul id="taskList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
