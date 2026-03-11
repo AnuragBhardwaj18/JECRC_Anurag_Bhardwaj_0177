@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Online Order Filtering</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+button{
+    padding: 10px 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #218838;
+}
+.result{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Online Order Filtering</h2>
+    <p>Show orders greater than ₹1000</p>
+
+    <button onclick="filterOrders()">Filter Orders</button>
+
+    <div class="result" id="output"></div>
+</div>
+
+<script>
+function filterOrders(){
+
+    const orders = [450, 1200, 700, 3000, 1500];
+
+    const filteredOrders = orders.filter(order => order > 1000);
+
+    document.getElementById("output").innerHTML =
+        "Filtered Orders: [" + filteredOrders.join(", ") + "]";
+}
+</script>
+
+</body>
+</html>
+
