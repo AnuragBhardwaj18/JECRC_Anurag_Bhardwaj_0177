@@ -2,26 +2,19 @@ const api = "https://localhost:5001/api";
 
 function register(){
 
-const data = {
-
-username: document.getElementById("rusername").value,
-password: document.getElementById("rpassword").value,
-role: document.getElementById("role").value
-
+const data={
+username:document.getElementById("rusername").value,
+password:document.getElementById("rpassword").value,
+role:document.getElementById("role").value
 };
 
-fetch(api + "/auth/register",{
+fetch(api+"/auth/register",{
 
 method:"POST",
-
-headers:{
-"Content-Type":"application/json"
-},
-
+headers:{"Content-Type":"application/json"},
 body:JSON.stringify(data)
 
 })
-
 .then(res=>res.text())
 .then(data=>{
 alert(data);
@@ -30,36 +23,25 @@ window.location="login.html";
 
 }
 
-
 function login(){
 
-const data = {
-
-username: document.getElementById("username").value,
-password: document.getElementById("password").value
-
+const data={
+username:document.getElementById("username").value,
+password:document.getElementById("password").value
 };
 
 fetch(api+"/auth/login",{
 
 method:"POST",
-
-headers:{
-"Content-Type":"application/json"
-},
-
+headers:{"Content-Type":"application/json"},
 body:JSON.stringify(data)
 
 })
-
 .then(res=>res.json())
 .then(data=>{
 
 localStorage.setItem("token",data.token);
-localStorage.setItem("role",data.role);
 localStorage.setItem("userId",data.userId);
-
-alert("Login Successful");
 
 window.location="dashboard.html";
 
@@ -67,29 +49,22 @@ window.location="dashboard.html";
 
 }
 
-
 function logout(){
 
 localStorage.clear();
-
 window.location="login.html";
 
 }
 
-
 function applyLeave(){
 
-const data = {
+const data={
 
-employeeId: localStorage.getItem("userId"),
-
-leaveType: document.getElementById("leaveType").value,
-
-startDate: document.getElementById("startDate").value,
-
-endDate: document.getElementById("endDate").value,
-
-reason: document.getElementById("reason").value
+employeeId:localStorage.getItem("userId"),
+leaveType:document.getElementById("leaveType").value,
+startDate:document.getElementById("startDate").value,
+endDate:document.getElementById("endDate").value,
+reason:document.getElementById("reason").value
 
 };
 
@@ -105,12 +80,10 @@ headers:{
 body:JSON.stringify(data)
 
 })
-
 .then(res=>res.text())
 .then(data=>alert(data));
 
 }
-
 
 function loadLeaves(){
 
@@ -129,6 +102,11 @@ let rows="";
 
 data.forEach(l=>{
 
+let statusClass="pending";
+
+if(l.status==="Approved") statusClass="approved";
+if(l.status==="Rejected") statusClass="rejected";
+
 rows+=`
 
 <tr>
@@ -139,13 +117,14 @@ rows+=`
 <td>${l.startDate}</td>
 <td>${l.endDate}</td>
 <td>${l.reason}</td>
-<td>${l.status}</td>
+
+<td class="${statusClass}">${l.status}</td>
 
 <td>
 
-<button onclick="approve(${l.id})">Approve</button>
+<button class="approve" onclick="approve(${l.id})">Approve</button>
 
-<button onclick="reject(${l.id})">Reject</button>
+<button class="reject" onclick="reject(${l.id})">Reject</button>
 
 </td>
 
@@ -161,7 +140,6 @@ document.getElementById("leaveTable").innerHTML=rows;
 
 }
 
-
 function approve(id){
 
 fetch(api+"/leave/approve/"+id,{
@@ -172,11 +150,9 @@ headers:{
 "Authorization":"Bearer "+localStorage.getItem("token")
 }
 
-})
-.then(()=>loadLeaves());
+}).then(()=>loadLeaves());
 
 }
-
 
 function reject(id){
 
@@ -188,7 +164,6 @@ headers:{
 "Authorization":"Bearer "+localStorage.getItem("token")
 }
 
-})
-.then(()=>loadLeaves());
+}).then(()=>loadLeaves());
 
 }
