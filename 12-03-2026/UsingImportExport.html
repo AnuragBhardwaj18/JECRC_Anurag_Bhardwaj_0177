@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Modules Example</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f4f6f9;
+padding:40px;
+}
+
+h1{
+text-align:center;
+margin-bottom:40px;
+}
+
+.container{
+display:flex;
+justify-content:center;
+}
+
+.box{
+background:white;
+padding:25px;
+width:320px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:8px;
+margin-top:5px;
+margin-bottom:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:8px 14px;
+margin:5px;
+border:none;
+background:#007bff;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+.result{
+margin-top:15px;
+font-weight:bold;
+color:#333;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Using Import / Export Modules in JavaScript</h1>
+
+<div class="container">
+<div class="box">
+
+<label>Number 1</label>
+<input type="number" id="num1">
+
+<label>Number 2</label>
+<input type="number" id="num2">
+
+<div>
+<button onclick="calculate('add')">Add</button>
+<button onclick="calculate('subtract')">Subtract</button>
+<button onclick="calculate('multiply')">Multiply</button>
+<button onclick="calculate('divide')">Divide</button>
+</div>
+
+<div class="result" id="result"></div>
+
+</div>
+</div>
+
+
+<script type="module">
+
+// Utils Module (exported functions)
+const utils = `
+export const PI = 3.14;
+
+export function add(a, b) {
+    return a + b;
+}
+
+export function subtract(a, b) {
+    return a - b;
+}
+
+export function multiply(a, b) {
+    return a * b;
+}
+
+export function divide(a, b) {
+    if (b === 0) {
+        throw new Error("Cannot divide by zero");
+    }
+    return a / b;
+}
+`;
+
+// Creating module dynamically
+const blob = new Blob([utils], { type: 'application/javascript' });
+const url = URL.createObjectURL(blob);
+
+// Import module dynamically
+let mathModule;
+
+import(url).then(module => {
+    mathModule = module;
+    console.log("Module Loaded");
+    console.log("PI:", module.PI);
+}).catch(err => {
+    console.error('Error loading module:', err);
+});
+
+
+// Function to perform calculations
+window.calculate = function(operation){
+
+const a = Number(document.getElementById("num1").value);
+const b = Number(document.getElementById("num2").value);
+
+if(!mathModule){
+document.getElementById("result").innerText = "Module not loaded yet";
+return;
+}
+
+try{
+
+let output;
+
+if(operation === "add") output = mathModule.add(a,b);
+if(operation === "subtract") output = mathModule.subtract(a,b);
+if(operation === "multiply") output = mathModule.multiply(a,b);
+if(operation === "divide") output = mathModule.divide(a,b);
+
+document.getElementById("result").innerText = "Result: " + output;
+
+}
+catch(error){
+document.getElementById("result").innerText = error.message;
+}
+
+}
+
+</script>
+
+</body>
+</html>

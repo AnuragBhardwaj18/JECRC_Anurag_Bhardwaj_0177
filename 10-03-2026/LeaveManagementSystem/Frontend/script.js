@@ -1,4 +1,4 @@
-const api = "https://localhost:5001/api";
+const api = "http://localhost:5002/api";
 
 function register(){
 
