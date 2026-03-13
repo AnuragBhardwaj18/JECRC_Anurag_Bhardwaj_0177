@@ -1,9 +1,7 @@
 const API_BASE = "http://localhost:5184/api";
 
 
-/* =========================
-   COURSES
-========================= */
+
 
 async function getCourses(){
 
@@ -34,7 +32,7 @@ async function updateCourse(id, course){
 }
 
 async function createCourse(course){
-// template literals
+
     const response = await fetch(`${API_BASE}/Courses`,{
 
         method:"POST",
@@ -64,9 +62,7 @@ async function deleteCourse(courseId){
 
 
 
-/* =========================
-   ENROLLMENT
-========================= */
+
 
 async function enrollStudent(studentId,courseId){
 

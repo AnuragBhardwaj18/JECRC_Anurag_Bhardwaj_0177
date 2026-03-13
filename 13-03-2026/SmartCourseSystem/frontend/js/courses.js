@@ -45,7 +45,7 @@ const filtered=courses.filter(c=>c.courseName.toLowerCase().includes(keyword));
 renderCourses(filtered);
 
 }
-// ES6 async feature
+
 async function enroll(courseId){
 
 const msg=await enrollStudent(studentId,courseId);

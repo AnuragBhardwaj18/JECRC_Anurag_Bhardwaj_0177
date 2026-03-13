@@ -11,14 +11,13 @@
 
 <body>
 
-<h2>Admin Dashboard</h2>
+<nav class="navbar">
 
-<div>
+<div class="logo">Admin Panel</div>
 
+<div class="nav-links">
 <a href="index.html">Courses</a>
-
-<a href="admin.html">Admin</a>
-
+<a href="admin.html" class="active">Admin</a>
 </div>
 
 </nav>
@@ -35,9 +34,7 @@
 
 <input id="credits" placeholder="Credits">
 
-<button onclick="addCourse()">
-Add Course
-</button>
+<button onclick="addCourse()">Add Course</button>
 
 <button onclick="updateCourseUI()" id="updateBtn">
 Update Course
@@ -49,22 +46,19 @@ Update Course
 
 <div id="adminCourseList" class="course-grid"></div>
 
-    <hr>
+<hr>
 
 <h2>Enrollment History</h2>
 
-<button onclick="loadEnrollmentHistory()">
+<button class="history-btn" onclick="loadEnrollmentHistory()">
 Load Enrollment History
 </button>
 
-<div id="historyList" class="course-grid"></div>
-
-<nav class="navbar">
+<div id="historyList" class="history-grid"></div>
 
 </div>
 
 <script src="js/api.js"></script>
-
 <script src="js/admin.js"></script>
 
 </body>

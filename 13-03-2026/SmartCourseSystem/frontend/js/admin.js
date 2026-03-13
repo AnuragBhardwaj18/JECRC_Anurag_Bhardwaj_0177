@@ -1,13 +1,8 @@
-/* ==============================
-   ADMIN DASHBOARD SCRIPT
-================================*/
 
 let editingCourseId = null;
 
 
-/* ==============================
-   LOAD COURSES
-================================*/
+
 
 async function loadCoursesAdmin(){
 
@@ -51,9 +46,7 @@ async function loadCoursesAdmin(){
 }
 
 
-/* ==============================
-   ADD COURSE
-================================*/
+
 
 async function addCourse(){
 
@@ -83,9 +76,7 @@ async function addCourse(){
 }
 
 
-/* ==============================
-   EDIT COURSE
-================================*/
+
 
 function editCourse(id,name,dept,credits){
 
@@ -100,9 +91,7 @@ function editCourse(id,name,dept,credits){
 }
 
 
-/* ==============================
-   UPDATE COURSE
-================================*/
+
 
 async function updateCourseUI(){
 
@@ -142,9 +131,7 @@ async function updateCourseUI(){
 }
 
 
-/* ==============================
-   DELETE COURSE
-================================*/
+
 
 async function removeCourse(id){
 
@@ -161,9 +148,7 @@ async function removeCourse(id){
 }
 
 
-/* ==============================
-   ENROLLMENT HISTORY
-================================*/
+
 
 async function loadEnrollmentHistory(){
 
@@ -208,9 +193,7 @@ async function loadEnrollmentHistory(){
 }
 
 
-/* ==============================
-   CLEAR FORM
-================================*/
+
 
 function clearForm(){
 
@@ -225,8 +208,6 @@ function clearForm(){
 }
 
 
-/* ==============================
-   INITIAL LOAD
-================================*/
+
 
 loadCoursesAdmin();
