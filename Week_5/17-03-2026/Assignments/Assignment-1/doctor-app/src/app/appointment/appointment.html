@@ -1,0 +1,52 @@
+<div class="container">
+
+  <h2>Doctor Appointment Booking</h2>
+
+  <form>
+
+    <label>Patient Name</label>
+    <input type="text" [(ngModel)]="patientName" name="patientName" required>
+
+    <label>Select Doctor</label>
+    <select [(ngModel)]="doctor" name="doctor">
+      <option value="">-- Select Doctor --</option>
+      <option *ngFor="let d of doctors" [value]="d">{{d}}</option>
+    </select>
+
+    <label>Appointment Date</label>
+    <input type="date" [(ngModel)]="date" name="date" [min]="today">
+
+    <label>Consultation Type</label>
+    <div class="radio-group">
+      <label>
+        <input type="radio" value="Online" [(ngModel)]="consultationType" name="type" (change)="updateFee()"> Online
+      </label>
+      <label>
+        <input type="radio" value="Offline" [(ngModel)]="consultationType" name="type" (change)="updateFee()"> Offline
+      </label>
+    </div>
+
+    <label>Symptoms</label>
+    <textarea [(ngModel)]="symptoms" name="symptoms"></textarea>
+
+    <button type="button" (click)="submitForm()">Book Appointment</button>
+
+  </form>
+
+  
+  <div class="summary" *ngIf="patientName || doctor || date">
+    <h3>Appointment Summary</h3>
+    <p><b>Name:</b> {{patientName || '-'}}</p>
+    <p><b>Doctor:</b> {{doctor || '-'}}</p>
+    <p><b>Date:</b> {{date || '-'}}</p>
+    <p><b>Type:</b> {{consultationType || '-'}}</p>
+    <p><b>Fee:</b> ₹{{fee}}</p>
+    <p><b>Symptoms:</b> {{symptoms || '-'}}</p>
+  </div>
+
+  
+  <div *ngIf="submitted" class="success">
+    Appointment Booked Successfully!
+  </div>
+
+</div>
