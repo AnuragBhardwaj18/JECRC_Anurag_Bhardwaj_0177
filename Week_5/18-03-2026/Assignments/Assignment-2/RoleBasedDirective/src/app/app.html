@@ -1,0 +1,17 @@
+<div class="container">
+  <h2>Role-Based Dashboard</h2>
+
+  <p>Current Role: <b>{{ userRole }}</b></p>
+
+  
+  <div *appRole="userRole" class="admin-panel">
+    <h3>Admin Panel</h3>
+    <p>You can manage users, settings, and data.</p>
+  </div>
+
+  
+  <div class="user-panel">
+    <h3>User Panel</h3>
+    <p>This is visible to everyone.</p>
+  </div>
+</div>
