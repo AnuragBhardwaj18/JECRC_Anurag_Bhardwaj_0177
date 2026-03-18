@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Click Block Directive</h2>
+
+  <p>Click Allowed: <b>{{ isAllowed }}</b></p>
+
+  <button 
+    (click)="isAllowed && handleClick()" 
+    [appClickBlock]="isAllowed">
+    Click Me
+  </button>
+</div>
