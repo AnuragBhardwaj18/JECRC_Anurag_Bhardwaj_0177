@@ -1,0 +1,16 @@
+h1 {
+background: #2c3e50;
+color: white;
+padding: 15px;
+margin: 0;
+}
+
+app-product, app-cart, app-checkout {
+display: block;
+background: white;
+margin: 20px auto;
+padding: 20px;
+border-radius: 10px;
+width: 90%;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
