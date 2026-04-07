@@ -1,0 +1,266 @@
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light theme body styles */
+body.light {
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+/* Dark theme body styles */
+body.dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+/* Common body styles */
+body {
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* App wrapper */
+.app {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Login page container */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Login card width */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Reusable card UI */
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+/* Card styles for dark theme */
+body.dark .card {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+/* Headings spacing */
+h1,
+h2,
+h3 {
+  margin-bottom: 12px;
+}
+
+/* Subtitle text */
+.subtitle {
+  margin-bottom: 20px;
+  color: #6b7280;
+}
+
+/* Subtitle dark theme */
+body.dark .subtitle {
+  color: #d1d5db;
+}
+
+/* Form fields */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Dark theme form fields */
+body.dark input,
+body.dark select {
+  background: #374151;
+  color: white;
+  border: 1px solid #4b5563;
+}
+
+/* Common button styles */
+button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+/* Primary action button */
+.primary-btn {
+  background: #2563eb;
+  color: white;
+}
+
+/* Secondary action button */
+.secondary-btn {
+  background: #6b7280;
+  color: white;
+}
+
+/* Danger/logout button */
+.danger-btn {
+  background: #dc2626;
+  color: white;
+}
+
+/* Edit button */
+.edit-btn {
+  background: #f59e0b;
+  color: white;
+  margin-right: 8px;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Demo credentials box */
+.demo-box {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f3f4f6;
+  font-size: 14px;
+}
+
+/* Demo box dark mode */
+body.dark .demo-box {
+  background: #374151;
+}
+
+/* Main dashboard container */
+.dashboard-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Small text below heading */
+.small-text {
+  color: #6b7280;
+}
+
+/* Small text dark mode */
+body.dark .small-text {
+  color: #d1d5db;
+}
+
+/* Header button section */
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Analytics and settings grid */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Analytics card internal grid */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Small analytics boxes */
+.stat-box {
+  padding: 18px;
+  border-radius: 10px;
+  background: #eff6ff;
+  text-align: center;
+}
+
+/* Dark mode analytics box */
+body.dark .stat-box {
+  background: #374151;
+}
+
+/* Employee form button area */
+.employee-form .form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Table wrapper for responsive scroll */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+/* Table cells */
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+/* Dark mode table borders */
+body.dark th,
+body.dark td {
+  border-bottom: 1px solid #4b5563;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 14px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
