@@ -1,0 +1,375 @@
+/* =========================
+   Global Reset
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* =========================
+   App Theme Styles
+========================= */
+.app {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.app.light {
+  background: linear-gradient(to right, #eef2f7, #f8fbff);
+  color: #1f2937;
+}
+
+.app.dark {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: #f8fafc;
+}
+
+/* =========================
+   Login Page
+========================= */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.18);
+}
+
+.app.dark .login-card {
+  background: rgba(30, 41, 59, 0.95);
+  color: #f8fafc;
+}
+
+.login-card h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #2563eb;
+}
+
+.app.dark .login-card h2 {
+  color: #60a5fa;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 22px;
+}
+
+.app.dark .subtitle {
+  color: #cbd5e1;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 13px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.login-card input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+.app.dark .login-card input {
+  background: #0f172a;
+  color: white;
+  border: 1px solid #475569;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+}
+
+.error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+/* =========================
+   Dashboard Layout
+========================= */
+.dashboard {
+  padding: 24px;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 22px 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.app.dark .header {
+  background: rgba(30, 41, 59, 0.95);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.header h2 {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.header p {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.app.dark .header p {
+  color: #cbd5e1;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* =========================
+   Buttons
+========================= */
+button {
+  transition: all 0.3s ease;
+}
+
+.header button,
+.employee-form button,
+.employee-list button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header button,
+.employee-form button,
+.employee-list button:not(.delete-btn):not(.cancel-btn) {
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  color: white;
+}
+
+.header button:hover,
+.employee-form button:hover,
+.employee-list button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.logout-btn,
+.delete-btn {
+  background: linear-gradient(to right, #dc2626, #b91c1c) !important;
+  color: white;
+}
+
+.cancel-btn {
+  background: linear-gradient(to right, #6b7280, #4b5563) !important;
+  color: white;
+}
+
+/* =========================
+   Main Content
+========================= */
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+.employee-form,
+.employee-list {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+}
+
+.app.dark .employee-form,
+.app.dark .employee-list {
+  background: rgba(30, 41, 59, 0.96);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
+}
+
+.employee-form h3,
+.employee-list h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #2563eb;
+}
+
+.app.dark .employee-form h3,
+.app.dark .employee-list h3 {
+  color: #60a5fa;
+}
+
+/* =========================
+   Form Inputs
+========================= */
+.employee-form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.employee-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+.app.dark .employee-form input {
+  background: #0f172a;
+  color: white;
+  border: 1px solid #475569;
+}
+
+/* =========================
+   Employee Table
+========================= */
+.employee-list {
+  overflow-x: auto;
+}
+
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  min-width: 700px;
+}
+
+.employee-list th {
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.employee-list td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.app.dark .employee-list td {
+  border-bottom: 1px solid #334155;
+}
+
+.employee-list tr:hover {
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.app.dark .employee-list tr:hover {
+  background: rgba(96, 165, 250, 0.08);
+}
+
+/* =========================
+   Loader
+========================= */
+.loader {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(to right, #111827, #1f2937);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  font-weight: 600;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 992px) {
+  .dashboard-content {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .header-actions {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard {
+    padding: 14px;
+  }
+
+  .login-card,
+  .employee-form,
+  .employee-list,
+  .header {
+    padding: 18px;
+  }
+
+  .header h2 {
+    font-size: 22px;
+  }
+
+  .employee-form h3,
+  .employee-list h3 {
+    font-size: 18px;
+  }
+}

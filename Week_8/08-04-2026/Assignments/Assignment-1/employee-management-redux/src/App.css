@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+}
+
+.app.light {
+  background: #f4f6f9;
+  color: #222;
+  min-height: 100vh;
+}
+
+.app.dark {
+  background: #121212;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.app.dark .login-card,
+.app.dark .employee-form,
+.app.dark .employee-list,
+.app.dark .header {
+  background: #1e1e1e;
+  color: white;
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.login-card input,
+.employee-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-card button,
+.employee-form button,
+.header button,
+.employee-list button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.login-card button,
+.employee-form button,
+.header button,
+.employee-list button {
+  background: #2563eb;
+  color: white;
+}
+
+.delete-btn,
+.logout-btn {
+  background: #dc2626 !important;
+}
+
+.cancel-btn {
+  background: #6b7280 !important;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.header {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.employee-form,
+.employee-list {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.employee-form h3,
+.employee-list h3 {
+  margin-bottom: 15px;
+}
+
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.employee-list th,
+.employee-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.employee-list th {
+  background: #2563eb;
+  color: white;
+}
+
+.loader {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+@media (max-width: 900px) {
+  .dashboard-content {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .employee-list {
+    overflow-x: auto;
+  }
+}
