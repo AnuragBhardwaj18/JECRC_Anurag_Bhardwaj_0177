@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HybridInheritance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd109c4123503513ca4f2f46c38727bffcb45b05")]
 [assembly: System.Reflection.AssemblyProductAttribute("HybridInheritance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HybridInheritance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
