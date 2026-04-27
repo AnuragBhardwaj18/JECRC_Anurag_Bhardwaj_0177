@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|c:\\users\\anurag bhardwaj\\desktop\\cap\\week_11\\27-04-2026\\casestudies\\casestudy-1\\productmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA76A2A1-0316-4AE3-8973-A0D43F7401D9}|ProductManagement.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:02:10.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductRequestDto.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "RelativeToolTip": "DTOs\\ProductRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:59:30.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:56:38.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T06:52:05.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\Tag.cs",
+              "RelativeToolTip": "Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:40:45.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "Models\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeToolTip": "Models\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:40:23.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\ProductDetail.cs",
+              "RelativeDocumentMoniker": "Models\\ProductDetail.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\ProductDetail.cs",
+              "RelativeToolTip": "Models\\ProductDetail.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:59:28.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:51:15.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:46:27.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
