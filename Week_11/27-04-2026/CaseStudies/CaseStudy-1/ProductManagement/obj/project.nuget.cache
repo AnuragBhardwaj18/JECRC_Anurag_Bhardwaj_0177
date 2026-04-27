@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IHA1yskXf00=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\27-04-2026\\CaseStudies\\CaseStudy-1\\ProductManagement\\ProductManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.14\\microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.14\\microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.14\\microsoft.netcore.app.host.win-x64.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
