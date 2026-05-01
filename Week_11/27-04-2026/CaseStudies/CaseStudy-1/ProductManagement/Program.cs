@@ -1,9 +1,40 @@
+using Microsoft.EntityFrameworkCore;
+using ProductManagement.Data;
+using ProductManagement.Repositories.Implementations;
+using ProductManagement.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 var app = builder.Build();
+
+// Seed Categories
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    try 
+    {
+        context.Database.Migrate();
+        if (!context.CategoryDetails.Any())
+        {
+            context.CategoryDetails.AddRange(
+                new ProductManagement.Models.Category { Name = "Electronics" },
+                new ProductManagement.Models.Category { Name = "Home Appliances" },
+                new ProductManagement.Models.Category { Name = "Clothing" }
+            );
+            context.SaveChanges();
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Could not seed data: " + ex.Message);
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
