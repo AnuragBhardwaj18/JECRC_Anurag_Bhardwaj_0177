@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EMS.Api/EMS.Api.csproj" Id="9279db01-44ac-4fae-ad45-a19500f326f5" />
+  <Project Path="EMS.Mvc/EMS.Mvc.csproj" Id="cbae478b-037a-4372-92cc-133f8298bcd0" />
+</Solution>
