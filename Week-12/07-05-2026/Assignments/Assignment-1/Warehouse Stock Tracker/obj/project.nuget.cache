@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2GYl3kIkuFI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week-12\\07-05-2026\\Assignments\\Assignment-1\\Warehouse Stock Tracker\\Warehouse Stock Tracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.14\\microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.14\\microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.14\\microsoft.netcore.app.host.win-x64.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
