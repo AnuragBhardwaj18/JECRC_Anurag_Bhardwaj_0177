@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousServiceOrchestrationHierarchy", "AsynchronousServiceOrchestrationHierarchy.csproj", "{0D7855C8-2BFE-5D3B-530E-C32E6B8BF66F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7855C8-2BFE-5D3B-530E-C32E6B8BF66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7855C8-2BFE-5D3B-530E-C32E6B8BF66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7855C8-2BFE-5D3B-530E-C32E6B8BF66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7855C8-2BFE-5D3B-530E-C32E6B8BF66F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {233A760B-CF6A-482F-8F04-CD99006755CB}
+	EndGlobalSection
+EndGlobal
