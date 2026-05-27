@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\10-04-2026\\Assignments\\Assignment-1\\AirplaneAPI\\AirplaneAPI.csproj": {}
+    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\11-04-2026\\Assessment\\AirplaneAPI\\AirplaneAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\10-04-2026\\Assignments\\Assignment-1\\AirplaneAPI\\AirplaneAPI.csproj": {
+    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\11-04-2026\\Assessment\\AirplaneAPI\\AirplaneAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\10-04-2026\\Assignments\\Assignment-1\\AirplaneAPI\\AirplaneAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\11-04-2026\\Assessment\\AirplaneAPI\\AirplaneAPI.csproj",
         "projectName": "AirplaneAPI",
-        "projectPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\10-04-2026\\Assignments\\Assignment-1\\AirplaneAPI\\AirplaneAPI.csproj",
+        "projectPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\11-04-2026\\Assessment\\AirplaneAPI\\AirplaneAPI.csproj",
         "packagesPath": "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\10-04-2026\\Assignments\\Assignment-1\\AirplaneAPI\\obj\\",
+        "outputPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_8\\11-04-2026\\Assessment\\AirplaneAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "net9.0": {
-            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -49,7 +48,6 @@
       },
       "frameworks": {
         "net9.0": {
-          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {

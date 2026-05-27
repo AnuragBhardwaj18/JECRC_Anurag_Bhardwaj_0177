@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JNNrC1CQLaA=",
+  "dgSpecHash": "mJTqPkFA9bU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anurag Bhardwaj\\SQL_Training\\ProductManagementSystem\\ProductManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\24-02-2026\\ProductManagementSystem\\ProductManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

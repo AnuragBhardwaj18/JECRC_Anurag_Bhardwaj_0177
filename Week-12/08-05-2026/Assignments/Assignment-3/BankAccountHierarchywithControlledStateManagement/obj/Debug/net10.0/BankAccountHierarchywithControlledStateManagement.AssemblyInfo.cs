@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankAccountHierarchywithControlledStateManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26d012734d8f488050e83fafd23972a1ab6e391e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65bd4ba279bec439d61ce7c04cdd79f597b5dfc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankAccountHierarchywithControlledStateManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankAccountHierarchywithControlledStateManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

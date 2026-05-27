@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7wwkHqYiGpA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\27-05-2026\\LogiTrack\\backend\\LogiTrack.Core\\LogiTrack.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

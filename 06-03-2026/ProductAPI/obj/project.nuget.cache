@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P48rpuz0wjM=",
+  "dgSpecHash": "svvk0UAvdj8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\06-03-2026\\ProductAPI\\ProductAPI.csproj",
   "expectedPackageFiles": [
@@ -58,15 +58,5 @@
     "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\06-03-2026\\ProductAPI\\ProductAPI.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\06-03-2026\\ProductAPI\\ProductAPI.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

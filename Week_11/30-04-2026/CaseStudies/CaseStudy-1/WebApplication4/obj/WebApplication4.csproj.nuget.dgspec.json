@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CapGemini\\DateWise\\week-11-backend\\30-04-2026\\case_studies\\WebApplication4\\WebApplication4.csproj": {}
+    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\30-04-2026\\CaseStudies\\CaseStudy-1\\WebApplication4\\WebApplication4.csproj": {}
   },
   "projects": {
-    "D:\\CapGemini\\DateWise\\week-11-backend\\30-04-2026\\case_studies\\WebApplication4\\WebApplication4.csproj": {
+    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\30-04-2026\\CaseStudies\\CaseStudy-1\\WebApplication4\\WebApplication4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CapGemini\\DateWise\\week-11-backend\\30-04-2026\\case_studies\\WebApplication4\\WebApplication4.csproj",
+        "projectUniqueName": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\30-04-2026\\CaseStudies\\CaseStudy-1\\WebApplication4\\WebApplication4.csproj",
         "projectName": "WebApplication4",
-        "projectPath": "D:\\CapGemini\\DateWise\\week-11-backend\\30-04-2026\\case_studies\\WebApplication4\\WebApplication4.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\CapGemini\\DateWise\\week-11-backend\\30-04-2026\\case_studies\\WebApplication4\\obj\\",
+        "projectPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\30-04-2026\\CaseStudies\\CaseStudy-1\\WebApplication4\\WebApplication4.csproj",
+        "packagesPath": "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\Week_11\\30-04-2026\\CaseStudies\\CaseStudy-1\\WebApplication4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anurag Bhardwaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,19 +69,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day1\\Array\\Array.csproj": {}
+    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\16-02-2026\\SortArray\\Array.csproj": {}
   },
   "projects": {
-    "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day1\\Array\\Array.csproj": {
+    "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\16-02-2026\\SortArray\\Array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day1\\Array\\Array.csproj",
+        "projectUniqueName": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\16-02-2026\\SortArray\\Array.csproj",
         "projectName": "Array",
-        "projectPath": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day1\\Array\\Array.csproj",
-        "packagesPath": "C:\\Users\\91982\\.nuget\\packages\\",
-        "outputPath": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day1\\Array\\obj\\",
+        "projectPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\16-02-2026\\SortArray\\Array.csproj",
+        "packagesPath": "C:\\Users\\Anurag Bhardwaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anurag Bhardwaj\\Desktop\\Cap\\16-02-2026\\SortArray\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\91982\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anurag Bhardwaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
